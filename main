@@ -1,0 +1,14 @@
+a = input("enter any line you want to see in reverse \n")
+b = a.split()
+b = b[::-1]
+b = " ".join(b)
+print(b, "\n \n")
+
+# To write it in one line <<< Not my code.
+print("Below is done in one line code : obiously not written by me :_:")
+print( ' '.join(a.split()[::-1]))
+
+# a = input("enter some numbers")
+# b = a.split()
+# b = " ".join(b)
+# print(b)
